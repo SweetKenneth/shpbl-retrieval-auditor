@@ -1,0 +1,29 @@
+{
+  "name": "shpbl-retrieval-auditor",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Retrieval context provenance auditor: influence attribution, lineage, source trust and drift for agent retrieval supply chains. Reference implementation of the public SHPBL behaviour specification.",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "shpbl-retrieval-auditor": "src/mcp-server.ts"
+  },
+  "scripts": {
+    "test": "bun test",
+    "scan": "bun run scripts/symbol-scan.ts",
+    "typecheck": "tsgo --noEmit -p tsconfig.json"
+  },
+  "dependencies": {},
+  "keywords": [
+    "retrieval",
+    "provenance",
+    "rag",
+    "audit",
+    "agent",
+    "security"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "bun-types": "^1.1.0"
+  }
+}
