@@ -10,7 +10,11 @@
 | Explicit implementation grant | **granted** — MIT, naming the reviewed file set |
 | Licence file | present (MIT, Kenneth E. Sweet Jr., 2026) |
 | Public repository / release | published |
-| Tenable listing, Exchange submission, PR, Contribution Agreement | none, and each remains a separate approval gate |
+| Tenable CyberAgents Exchange submission | submitted as [PR #164](https://github.com/tenable/cyberagents-exchange/pull/164) |
+| Exchange review outcome | **accepted and merged** (2026-09-15) — published as a contributed listing |
+| Tenable Contribution Agreement | accepted electronically as part of the submission |
 
-This package is released under MIT. It has not been submitted to, reviewed by, approved by, or
-endorsed by Tenable or any other vendor.
+This package is released under MIT. Tenable reviewers inspected this submission and accepted it
+into the CyberAgents Exchange as a contributed listing. That is the whole of the claim: acceptance
+of this implementation into a community catalogue. It is not certification, validation, partnership,
+or endorsement of this package, of SHPBL, or of any other work, by Tenable or any other vendor.
